@@ -13,23 +13,23 @@
 set -g status-interval 1
 
 # Basic status bar colors
-set -g status-fg "#8fabbd"
+set -g status-fg "#a7c2d3"
 set -g status-bg "#495a64"
 
 # Left side of status bar
 set -g status-left-bg "#495a64"
-set -g status-left-fg "#a7b8c2"
+set -g status-left-fg "#c5d1d8"
 set -g status-left-length 40
-set -g status-left "#[fg=#343637,bg=#fffa70,bold] #S #[fg=#fffa70,bg=#899ba6,nobold]#[fg=#495a64,bg=#899ba6] #(whoami) #[fg=#899ba6,bg=#556873]#[fg=#899ba6,bg=#556873] #I:#P #[fg=#556873,bg=#495a64,nobold]"
+set -g status-left "#[fg=#343637,bg=#fffa70,bold] #S #[fg=#fffa70,bg=#bfccd4,nobold]#[fg=#495a64,bg=#bfccd4] #(whoami) #[fg=#bfccd4,bg=#556873]#[fg=#bfccd4,bg=#556873] #I:#P #[fg=#556873,bg=#495a64,nobold]"
 
 # Right side of status bar
 set -g status-right-bg "#495a64"
-set -g status-right-fg "#a7b8c2"
+set -g status-right-fg "#c5d1d8"
 set -g status-right-length 150
-set -g status-right "#[fg=#556873,bg=#495a64]#[fg=#899ba6,bg=#556873] %H:%M:%S #[fg=#899ba6,bg=#556873]#[fg=#495a64,bg=#899ba6] %d-%b-%y #[fg=#cae2f2,bg=#899ba6]#[fg=#343637,bg=#cae2f2,bold] #H "
+set -g status-right "#[fg=#556873,bg=#495a64]#[fg=#bfccd4,bg=#556873] %H:%M:%S #[fg=#bfccd4,bg=#556873]#[fg=#495a64,bg=#bfccd4] %d-%b-%y #[fg=#e3f2fd,bg=#bfccd4]#[fg=#343637,bg=#e3f2fd,bold] #H "
 
 # Window status
-set -g window-status-format "#[fg=#f2f2f2]#[bg=#495a64] #I:#W#F "
+set -g window-status-format "#[fg=#ffffff]#[bg=#495a64] #I:#W#F "
 set -g window-status-current-format "#[fg=#92dd69,bg=black] #I:#W#F "
 
 # Current window status
@@ -48,7 +48,7 @@ set -g status-justify centre
 
 # Pane border
 set -g pane-border-bg default
-set -g pane-border-fg "#8fabbd"
+set -g pane-border-fg "#a7c2d3"
 
 # Active pane border
 set -g pane-active-border-bg default
@@ -56,7 +56,7 @@ set -g pane-active-border-fg "#fffa70"
 
 # Pane number indicator
 set -g display-panes-colour "#495a64"
-set -g display-panes-active-colour "#cae2f2"
+set -g display-panes-active-colour "#e3f2fd"
 
 # Clock mode
 set -g clock-mode-colour "#fffa70"
@@ -72,4 +72,4 @@ set -g message-command-fg black
 
 # Mode
 set -g mode-bg "#fffa70"
-set -g mode-fg "#f2f2f2"
+set -g mode-fg "#ffffff"
